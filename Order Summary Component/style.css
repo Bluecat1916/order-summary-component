@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: hsl(225, 100%, 98%);
+}
+
+.card {
+    width: 350px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.headImg {
+    width: 100%;
+}
+
+h2 {
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.para {
+    margin-inline: 40px;
+    color: hsl(224, 23%, 55%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.payment {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    height: 70px;
+    background-color: hsla(224, 48%, 94%, 0.295);
+    margin-inline: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.payment p {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    transform: translateY(15px);
+}
+
+.payment span {
+    color:  hsl(224, 23%, 55%);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.payment img {
+    width: 50px;
+    height: 50px;
+    transform: translateY(10px);
+}
+
+.payment a {
+    transform: translateY(25px);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.pay {
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 250px;
+    height: 40px;
+    font-size: 14px;
+    font-family: 'Red Hat Display', sans-serif;
+    transform: translateX(50px);
+    margin-bottom: 15px;
+    box-shadow: 0px 10px 20px 4px rgba(0,0,0,0.2);
+}
+
+.cancel {
+    font-family: 'Red Hat Display', sans-serif;
+    border: none;
+    background-color: hsla(255, 100%, 100%, 0);
+    color: hsl(245, 75%, 52%);
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
